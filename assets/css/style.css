@@ -1,0 +1,413 @@
+/* 
+    Theme: Cyber
+    Author: Israt Zahan Mukta
+    Live URL: https://www.somrthing.com
+
+    Primary Color: #08DD83, #15B4C5, #2092FC
+    Secondary Color: #003060
+
+    Font Style
+    Title: Roboto
+    Paragraph: Roboto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0; 
+}
+a{
+    text-decoration: none; 
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+/* Header CSS */
+.hearder-section{
+    padding: 10px 0 5px;
+}
+.header-contact, .header-media{
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.contact-info{
+    display: flex;
+    gap: 8px;
+}
+.icon{
+    background: #2092fc;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+}
+.icon .fa-solid{
+    line-height: 22px;
+    color: #fff;
+}
+.icon .fa-phone{
+    font-size: 11px;
+}
+.header-media p{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.header-media ul{
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+.header-media ul li{
+    list-style: none;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+.header-media ul li a .fa-brands{
+    line-height: 24px;
+    font-size: 18px;
+    color: #fff;
+}
+.header-media ul li a .fa-instagram{
+    font-size: 20px;
+}
+.header-media ul .facebook{
+    background: #4267b2;
+}
+.header-media ul .linkedin{
+    background: #0f7fbb;
+}
+.header-media ul .twitter{
+    background: #50abf1;
+}
+.header-media ul .instagram{
+    background-image: linear-gradient(to top right, #ffcd52, #fd5445, #d13c9a);
+}
+/* Hero CSS */
+.navbar-section{
+    padding: 6px 0;
+    background: #003060;
+}
+.logo{
+    width: 70%;
+}
+.nav-link{
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 15px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding:  10px 20px;
+    transition: all .6s ease-in-out;
+}
+.nav-link:hover, .hero-btn:hover{
+    color: #fff;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to bottom left, #08DD83, #15B4C5, #2092FC);
+}
+.hero-btn{
+    border: 1px solid transparent;
+    background-image: linear-gradient(to top left, #08DD83, #15B4C5, #2092FC);
+    border-radius: 3px;
+    padding:  10px 20px;
+    transition: all .6s ease-in-out;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner-section{
+    background: url(../img/banner-bg.png) no-repeat center top;
+    background-size: cover;
+    min-height: 70vh;
+}
+.banner-content{
+    margin: 55px 0;
+}
+.banner-content h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.banner-content p{
+    color: #fff;
+    margin: 20px 0;
+    padding-right: 240px;
+}
+/* About CSS */
+.about-section{
+    position: relative;
+    padding: 40% 0 5%;
+    border-bottom: 1px solid #C0C0C0;
+}
+.about-row{
+    position: absolute;
+    top: -7%;
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    width: 65%;
+}
+.about-table{
+    border: 1px solid #C0C0C0;
+    background: #fff;
+    
+}
+.about-table p{
+    margin: 18px 0 5px;
+    color: #729092;
+}
+.tbl-heading{
+    background: #08DD83;
+    padding: 20px 20px 10px;
+    color: #fff;
+}
+.scound{
+    background: #15B4C5;
+}
+.third{
+    background: #2092FC;
+}
+.tbl-price{
+    color: #023F7C;
+}
+.tbl-price span{
+    font-size: 18px;
+}
+.tbl-price h2{
+    font-size:65px;
+}
+.tbl-price h2 sup{
+    font-size: 35px;
+}
+.price-list{
+    font-weight: 400;
+}
+.price-list ul li{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.price-list i{
+    color: #08BC05;
+    font-size: 12px;
+}
+.inactive , .inactive i{
+    color: #999999;
+}
+.about-table a{
+    font-size: 15px;
+    color: #023F7C;
+    border-bottom: 1px solid #023F7C;
+}
+.order-btn{
+    border: 1px solid transparent;
+    background-image: linear-gradient(to top left, #08DD83, #15B4C5, #2092FC);
+    border-radius: 3px;
+    padding:  10px 20px;
+    transition: all .4s ease-in-out;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.order-btn:hover{
+    color: #fff;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to bottom left, #08DD83, #15B4C5, #2092FC);
+}
+.normal-button{
+    margin-bottom: 25px;
+}
+.about-detail{
+    display: flex;
+}
+.about-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.about-detail i{
+    color: #08BC05;
+    padding-top: 15px;
+}
+.about-detail p{
+    margin: 10px 0 5px;
+}
+/* Comment CSS */
+.comment-section{
+    padding: 40px 0;
+}
+.person-img{
+    width: 85%;
+}
+.first-details p{
+    color: #729092;
+    margin: 5px 0 0px;
+    font-size: 15px;
+}
+.first-details h6{
+    font-size: 15px;
+    font-weight: 700;
+}
+.person-detail{
+    position: relative;
+}
+.person-detail i{
+    position: absolute;
+    top: -30px;
+    left: -14px;
+    font-size: 70px;
+    color: #dbdadae3;
+    z-index: -1;
+}
+.person-detail p{
+    padding-right: 50px;
+}
+/* Learning CSS */
+.learning-section{
+    padding: 80px 0 60px;
+    background: #003060;
+}
+.learning-content{
+    color: #fff;
+    margin-left: 10px;
+}
+/* Contact CSS */
+.contact-section{
+    position: relative;
+}
+.contact-section p{
+    margin-bottom: 0;
+    color: #C0C0C0;
+}
+.contact-section h2{
+    font-weight: 700;
+    margin: 5px 0 8px;
+}
+.form-section{
+    padding: 60px 0;
+}
+.form-box input{
+    padding: 10px;
+    box-shadow: none;
+}
+.form-box input::placeholder,
+.form-box textarea::placeholder,
+.subs-box input::placeholder,
+.subs-box textarea::placeholder{
+    color: #C0C0C0;
+}
+.form-box input:focus,
+.form-box textarea:focus,
+.subs-box input:focus,
+.subs-box textarea:focus{
+    background: transparent;
+    box-shadow: none !important;
+    outline:  none;
+    border: 1px solid #C0C0C0 !important;
+}
+.box-first{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 48%;
+}
+.company-name{
+    width: 48%;
+}
+.form-box input[type="submit"]{
+    border: 1px solid transparent;
+    background-image: linear-gradient(to top left, #08DD83, #15B4C5, #2092FC);
+    border-radius: 3px;
+    padding:  10px 20px;
+    transition: all .4s ease-in-out;
+    color: #fff !important;
+    margin-top: 5px;
+}
+.form-box input[type="submit"]:hover{
+    color: #fff;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to bottom left, #08DD83, #15B4C5, #2092FC);
+}
+.map{
+    position: absolute;
+    width: 49%;
+}
+/* Subscribe CSS */
+.subscribe-section{
+    padding: 50px 0;
+    text-align: center;
+    background: #f9fcff;
+}
+.subs-content h2{
+    margin: 10px 0 20px;
+    font-weight: 700;
+}
+.subs-box{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.subs-box input{
+    padding: 10px;
+}
+.subs-box input[type="submit"]{
+    border: 1px solid transparent;
+    background-image: linear-gradient(to top left, #08DD83, #15B4C5, #2092FC);
+    border-radius: 3px;
+    padding:  0px 15px !important;
+    transition: all .4s ease-in-out;
+    color: #fff !important;
+    width: 20%;
+}
+.subs-box input[type="submit"]:hover{
+    color: #fff;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to bottom left, #08DD83, #15B4C5, #2092FC);
+}
+/* Footer CSS */
+.footer-section{
+    background: #f9fcff;
+    padding-bottom: 40px;
+}
+.footer-detail{
+    display: flex;
+}
+.footer-content{
+    display: flex;
+    gap: 30px;
+    
+}
+footer img{
+    width: 40%;
+}
+.footer-content a{
+    color: black ;
+}
+.footer-content .call-btn{
+    border: 1px solid black;
+    padding:  10px 20px;
+    border-radius: 3px;
+}
+.footer-content .call-btn:hover{
+    color: #fff;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to bottom left, #08DD83, #15B4C5, #2092FC);
+}
+footer p{
+    margin-top: 15px;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 500;
+    word-spacing: 3px;
+    color: #999999;
+}
+
