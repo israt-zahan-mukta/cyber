@@ -191,6 +191,7 @@ li{
 }
 .price-list{
     font-weight: 400;
+    padding-bottom: 5px;
 }
 .price-list ul li{
     margin-bottom: 5px;
